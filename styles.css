@@ -1,0 +1,62 @@
+css
+Copy code
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #008CBA;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+img.con-borde {
+    border: 2px solid #008CBA;
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+}
+
+h2, h3 {
+    color: #005f73;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+th {
+    background-color: #008CBA;
+    color: white;
+}
+
+marquee {
+    color: #ff0000;
+}
+
+form {
+    margin: 20px 0;
+}
+
+textarea {
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
