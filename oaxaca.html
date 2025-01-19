@@ -1,52 +1,147 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nombre del Estado</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h2>Oaxaca</h2>
-    <p>Oaxaca es un estado ubicado en el sur de México, conocido por su rica herencia cultural, su historia y su biodiversidad. Su capital es la ciudad de Oaxaca, una ciudad colonial famosa por su arquitectura histórica y su vibrante vida cultural. El estado está caracterizado por su geografía diversa, que incluye montañas, valles y costas en el Océano Pacífico. Oaxaca es también hogar de varios grupos indígenas, como los zapotecos y mixtecos, que han influido significativamente en la cultura y tradiciones locales.</p>
-    <img src="imagenes/oaxaca.jpg" alt="Imagen de Oaxaca" class="img-responsive con-borde">
-    <h3>Tradiciones en la Oaxaca</h3>
-    <p>Una de las tradiciones más destacadas de Oaxaca es la Guelaguetza, una fiesta cultural que se celebra cada julio en la ciudad de Oaxaca. La Guelaguetza es un festival que presenta danzas, música, y trajes tradicionales de las distintas regiones del estado, promoviendo la diversidad cultural y la unidad. Otra tradición importante es la celebración del Día de los Muertos, que en Oaxaca se celebra de manera especialmente elaborada. Las familias crean altares decorados con flores de cempasuchil, velas y ofrendas para honrar a sus seres queridos fallecidos. También se celebran eventos como la Noche de Rábanos el 23 de diciembre, donde se realizan figuras y esculturas de rábanos y otros vegetales que se exhiben en un concurso.</p>
-    <h3>Algunos de sus platillos tipicos de la Oaxaca son:</h3>
-    <p>La gastronomía de Oaxaca es una de las más ricas y variadas de México, famosa por sus sabores intensos y sus técnicas tradicionales. Uno de los platillos más emblemáticos es el mole oaxaqueño, una salsa espesa y rica hecha con chiles secos, chocolate, y especias, que se sirve tradicionalmente con pollo o pavo. Otro platillo característico es el tlayuda, una especie de tortilla grande y crujiente cubierta con frijoles, carne, queso, y salsas. Los quesillos, un tipo de queso fresco también conocido como "queso Oaxaca", son muy apreciados por su textura suave y sabor delicado.</p>
-    <table>
-        <tr>
-            <th>Dato de interés</th>
-            <th>Dato de interés</th>
-            <th>Dato de interés</th>
-        </tr>
-        <tr>
-            <td>Oaxaca es famosa por su producción de mezcal, una bebida alcohólica destilada del agave. El mezcal oaxaqueño es conocido por su sabor distintivo, a menudo con un toque ahumado, y se produce en diversas regiones del estado.</td>
-            <td>El estado alberga el sitio arqueológico de Monte Albán, una antigua ciudad zapoteca ubicada en una colina con vistas al Valle de Oaxaca. Monte Albán es Patrimonio de la Humanidad y es conocido por sus impresionantes ruinas y sus contribuciones a la cultura prehispánica.</td>
-            <td>Oaxaca es hogar de la comunidad de artesanos y alfareros de San Bartolo Coyotepec, conocida por su cerámica negra, que es una técnica tradicional que se ha practicado en la región durante siglos. La cerámica negra de Oaxaca es apreciada por su acabado distintivo y su belleza artesanal.</td>
-        </tr>
-    </table>
-    <marquee>VIVE LA EXPERIENCIA EN OAXACA</marquee>
-    <audio controls>
-        <source src="media/audio.mpeg" type="audio/mpeg">
-        Tu navegador no soporta el elemento de audio.
-    </audio>
-    <video controls>
-        <source src="media/oaxaca.mp4" type="video/mp4">
-        Tu navegador no soporta el elemento de video.
-    </video>
-    <form action="mailto:vazquez.victor@cetis054.edu.mx" method="post" enctype="text/plain">
-        <label for="evaluacion">Evalúa nuestra página:</label>
-        <textarea id="evaluacion" name="evaluacion" rows="4" cols="50"></textarea>
-        <input type="submit" value="Enviar">
-    </form>
-            <h3>Enlaces de Interés</h3>
-            <ul>
-                <li><a href="index.html">index</a></li>
-                <li><a href="indice.html">Indice</a></li>
-                <li><a href="https://www.oaxaca.gob.mx/">Enlace Externo</a></li>
-            </ul>
-        </section>
-    </article>
-</body>
+<!DOCTYPE html> 
+<html lang="es"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Oaxaca</title> 
+<link rel="stylesheet" href="styles.css"> 
+<style> 
+body { 
+background-color: #B6DDF5; /* Fondo color azul claro */ 
+font-family: Arial, sans-serif; 
+margin: 0; 
+padding: 0; 
+} 
+h1 { 
+text-align: center; /* Centrar los títulos */ 
+color: #B6DDF5; /* Color de los títulos */ 
+} 
+h2 { 
+text-align: center; /* Centrar los títulos */ 
+color: #01588C; /* Color de los títulos */ 
+} 
+nav ul { 
+list-style: none; 
+padding: 0; 
+display: flex; 
+justify-content: center; 
+gap: 10px; 
+} 
+nav ul li a { 
+text-decoration: none; 
+color: #fff; 
+background-color: #007acc; 
+padding: 10px 15px; 
+border-radius: 5px; 
+} 
+nav ul li a:hover { 
+background-color: #005f99; 
+} 
+footer ul li a { 
+text-decoration: none; 
+color: #007acc; 
+} 
+.boton-navegacion { 
+display: inline-block; 
+margin: 10px auto; 
+padding: 10px 15px; 
+background-color: #007acc; 
+color: #fff; 
+text-decoration: none; 
+border-radius: 5px; 
+text-align: center; 
+} 
+.boton-navegacion:hover { 
+background-color: #005f99; 
+} 
+section { 
+margin: 20px; 
+padding: 15px; 
+background: #fff; 
+border-radius: 10px; 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+} 
+</style> 
+</head> 
+<body> 
+<!-- Botón para ir al final --> 
+<a href="#final" class="boton-navegacion">Ir al final</a> 
+<header> 
+<h1>Oaxaca</h1> 
+<nav> 
+<ul> 
+<li><a href="#tradiciones">Tradiciones</a></li> 
+<li><a href="#platillos">Platillos Típicos</a></li> 
+<li><a href="#datos">Datos de Interés</a></li> 
+<li><a href="#multimedia">Multimedia</a></li> 
+<li><a href="#formulario">Formulario</a></li> 
+</ul> 
+</nav> 
+</header> 
+<section> 
+<p>Oaxaca es un estado ubicado en la región sur de México. Su capital es la ciudad de Oaxaca, reconocida por su rica herencia cultural y patrimonial. El estado tiene una superficie de <strong>93,767 km²</strong> y una población de aproximadamente <strong>4 millones</strong> de habitantes, según el censo de 2020. Oaxaca es conocido por su diversidad étnica y cultural, y es uno de los destinos turísticos más populares del país.</p> 
+<img src="imagenes/oaxaca.jpg" alt="Imagen de Oaxaca" class="img-responsive con-borde"> 
+</section> 
+<section id="tradiciones"> 
+<h2>Tradiciones en Oaxaca</h2> 
+<p><em>El Guelaguetza</em> es una de las tradiciones más representativas de Oaxaca, celebrada anualmente en julio. Este evento incluye danzas, música, y presentaciones de las diferentes comunidades indígenas del estado, ofreciendo una muestra vibrante de su cultura y tradiciones. Además, la <strong>Feria de la Tlayuda</strong> en agosto, celebra uno de los platillos más emblemáticos de la región, promoviendo su gastronomía única.</p> 
+</section> 
+<section id="platillos"> 
+<h2>Platillos Típicos</h2> 
+<p>Entre los platillos típicos de Oaxaca destacan:</p> 
+<ul> 
+<li><strong>Tlayuda:</strong> Tortilla grande y crujiente, acompañada de frijoles, carne, y salsa de chapulines.</li> 
+<li><strong>Memela:</strong> Tortilla gruesa cubierta con frijoles refritos, queso fresco, y salsa.</li> 
+</ul> 
+</section> 
+<section id="datos"> 
+<h2>Datos de Interés</h2> 
+<table> 
+<thead> 
+<tr> 
+<th>Dato 1</th> 
+<th>Dato 2</th> 
+<th>Dato 3</th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td>Oaxaca es reconocida como una región clave para la producción de mezcal, con denominaciones de origen que preservan métodos ancestrales de elaboración.</td> 
+<td>El estado cuenta con una amplia diversidad de flora y fauna, incluyendo especies únicas en el país como el ajolote.</td> 
+<td>El nombre "Oaxaca" proviene de la lengua náhuatl, que significa "en el ombligo del árbol" o "lugar sobre el ombligo".</td> 
+</tr> 
+</tbody> 
+</table> 
+</section> 
+<section id="multimedia"> 
+<h2>Multimedia</h2> 
+<marquee>VIVE LA EXPERIENCIA EN OAXACA</marquee> 
+<audio controls> 
+<source src="media/audio.mpeg" type="audio/mpeg"> 
+Tu navegador no soporta el elemento de audio. 
+</audio> 
+<video controls> 
+<source src="media/oaxaca.mp4" type="video/mp4"> 
+Tu navegador no soporta el elemento de video. 
+</video> 
+</section> 
+<section id="formulario"> 
+<h2>Formulario de Evaluación</h2> 
+<form action="mailto:vazquez.victor@cetis054.edu.mx" method="post" enctype="text/plain"> 
+<label for="evaluacion">Evalúa nuestra página:</label><br> 
+<textarea id="evaluacion" name="evaluacion" rows="4" cols="50"></textarea><br> 
+<input type="submit" value="Enviar"> 
+</form> 
+</section> 
+<footer id="final"> 
+<h2>Enlaces de Interés</h2> 
+<ul> 
+<li><a href="index.html">Página principal</a></li> 
+<li><a href="indice.html">Índice</a></li> 
+<li><a href="https://www.oaxaca.gob.mx" target="_blank">Sitio oficial de Oaxaca</a></li> 
+</ul> 
+<!-- Botón para ir al inicio --> 
+<a href="#top" class="boton-navegacion">Ir al inicio</a> 
+</footer> 
+</body> 
 </html>

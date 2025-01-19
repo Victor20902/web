@@ -4,27 +4,257 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Índice</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #B6DDF5;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #0056b3;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        ol {
+            list-style-type: decimal; /* Números para los temas principales */
+            padding: 0;
+            width: 60%;
+            margin: 0 auto;
+        }
+
+        ol li {
+            margin: 8px 0;
+            padding: 8px;
+            background-color: #e6f7ff;
+            border: 2px solid #0056b3;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        ol li:hover {
+            background-color: #f3cd8c;
+        }
+
+        ol li a {
+            text-decoration: none;
+            color: #0056b3;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        ol li a:hover {
+            text-decoration: underline;
+        }
+
+        .subtopics {
+            margin-top: 5px;
+            padding-left: 20px;
+            font-size: 0.9em;
+            color: #333;
+        }
+
+        .subtopics ol {
+            list-style-type: lower-alpha; /* Letras minúsculas para los temas secundarios */
+            padding-left: 20px;
+        }
+
+        .subtopics ol li {
+            margin: 4px 0;
+            padding: 4px;
+        }
+    </style>
 </head>
 <body>
     <h2>Índice</h2>
-    <ul>
-        <li><a href="aguascalientes.html">Aguascalientes</a></li>
-        <li><a href="cdmx.html">CDMX</a></li>
-        <li><a href="chiapas.html">Chiapas</a></li>
-        <li><a href="coahuila.html">Coahuila</a></li>
-        <li><a href="durango.html">Durango</a></li>
-        <li><a href="guanajuato.html">Guanajuato</a></li>
-        <li><a href="hidalgo.html">Hidalgo</a></li>
-        <li><a href="jalisco.html">Jalisco</a></li>
-        <li><a href="michoacan.html">Michoacan</a></li>
-        <li><a href="oaxaca.html">Oaxaca</a></li>
-        <li><a href="puebla.html">Puebla</a></li>
-        <li><a href="queretaro.html">Queretaro</a></li>
-        <li><a href="slp.html">San Luis Potosi</a></li>
-        <li><a href="sonora.html">Sonora</a></li>
-        <li><a href="zacatecas.html">Zacatecas</a></li>
-        <li><a href="conclusion.html">Conclusion</a></li>
-    </ul>
+    <ol>
+        <li>
+            <a href="Aguascalientes.html">Aguascalientes</a>
+            <div class="subtopics">
+                <ol>
+                    <li>Tradiciones</li>
+                    <li>Platillos típicos</li>
+                    <li>Datos de interés</li>
+                    <li>Multimedia</li>
+                    <li>Formulario</li>
+                </ol>
+            </div>
+        </li>
+        <li>
+            <a href="CDMX.html">Ciudad de México</a>
+            <div class="subtopics">
+                <ol>
+                    <li>Tradiciones</li>
+                    <li>Platillos típicos</li>
+                    <li>Datos de interés</li>
+                    <li>Multimedia</li>
+                    <li>Formulario</li>
+                </ol>
+            </div>
+        </li>
+        <li>
+            <a href="Chiapas.html">Chiapas</a>
+            <div class="subtopics">
+                <ol>
+                    <li>Tradiciones</li>
+                    <li>Platillos típicos</li>
+                    <li>Datos de interés</li>
+                    <li>Multimedia</li>
+                    <li>Formulario</li>
+                </ol>
+            </div>
+        </li>
+        <li>
+            <a href="Coahuila.html">Coahuila</a>
+            <div class="subtopics">
+                <ol>
+                    <li>Tradiciones</li>
+                    <li>Platillos típicos</li>
+                    <li>Datos de interés</li>
+                    <li>Multimedia</li>
+                    <li>Formulario</li>
+                </ol>
+            </div>
+        </li>
+        <li>
+            <a href="Durango.html">Durango</a>
+            <div class="subtopics">
+                <ol>
+                    <li>Tradiciones</li>
+                    <li>Platillos típicos</li>
+                    <li>Datos de interés</li>
+                    <li>Multimedia</li>
+                    <li>Formulario</li>
+                </ol>
+            </div>
+        </li>
+        <li>
+            <a href="Guanajuato.html">Guanajuato</a>
+            <div class="subtopics">
+                <ol>
+                    <li>Tradiciones</li>
+                    <li>Platillos típicos</li>
+                    <li>Datos de interés</li>
+                    <li>Multimedia</li>
+                    <li>Formulario</li>
+                </ol>
+            </div>
+        </li>
+        <li>
+            <a href="Hidalgo.html">Hidalgo</a>
+            <div class="subtopics">
+                <ol>
+                    <li>Tradiciones</li>
+                    <li>Platillos típicos</li>
+                    <li>Datos de interés</li>
+                    <li>Multimedia</li>
+                    <li>Formulario</li>
+                </ol>
+            </div>
+        </li>
+        <li>
+            <a href="Jalisco.html">Jalisco</a>
+            <div class="subtopics">
+                <ol>
+                    <li>Tradiciones</li>
+                    <li>Platillos típicos</li>
+                    <li>Datos de interés</li>
+                    <li>Multimedia</li>
+                    <li>Formulario</li>
+                </ol>
+            </div>
+        </li>
+        <li>
+            <a href="Michoacan.html">Michoacán</a>
+            <div class="subtopics">
+                <ol>
+                    <li>Tradiciones</li>
+                    <li>Platillos típicos</li>
+                    <li>Datos de interés</li>
+                    <li>Multimedia</li>
+                    <li>Formulario</li>
+                </ol>
+            </div>
+        </li>
+        <li>
+            <a href="Oaxaca.html">Oaxaca</a>
+            <div class="subtopics">
+                <ol>
+                    <li>Tradiciones</li>
+                    <li>Platillos típicos</li>
+                    <li>Datos de interés</li>
+                    <li>Multimedia</li>
+                    <li>Formulario</li>
+                </ol>
+            </div>
+        </li>
+        <li>
+            <a href="Puebla.html">Puebla</a>
+            <div class="subtopics">
+                <ol>
+                    <li>Tradiciones</li>
+                    <li>Platillos típicos</li>
+                    <li>Datos de interés</li>
+                    <li>Multimedia</li>
+                    <li>Formulario</li>
+                </ol>
+            </div>
+        </li>
+        <li>
+            <a href="Queretaro.html">Querétaro</a>
+            <div class="subtopics">
+                <ol>
+                    <li>Tradiciones</li>
+                    <li>Platillos típicos</li>
+                    <li>Datos de interés</li>
+                    <li>Multimedia</li>
+                    <li>Formulario</li>
+                </ol>
+            </div>
+        </li>
+        <li>
+            <a href="San_Luis_Potosi.html">San Luis Potosí</a>
+            <div class="subtopics">
+                <ol>
+                    <li>Tradiciones</li>
+                    <li>Platillos típicos</li>
+                    <li>Datos de interés</li>
+                    <li>Multimedia</li>
+                    <li>Formulario</li>
+                </ol>
+            </div>
+        </li>
+        <li>
+            <a href="Sonora.html">Sonora</a>
+            <div class="subtopics">
+                <ol>
+                    <li>Tradiciones</li>
+                    <li>Platillos típicos</li>
+                    <li>Datos de interés</li>
+                    <li>Multimedia</li>
+                    <li>Formulario</li>
+                </ol>
+            </div>
+        </li>
+        <li>
+            <a href="Zacatecas.html">Zacatecas</a>
+            <div class="subtopics">
+                <ol>
+                    <li>Tradiciones</li>
+                    <li>Platillos típicos</li>
+                    <li>Datos de interés</li>
+                    <li>Multimedia</li>
+                    <li>Formulario</li>
+                </ol>
+            </div>
+        </li>
+        <li>
+            <a href="Conclusion.html">Conclusión</a>
+        </li>
+    </ol>
 </body>
 </html>

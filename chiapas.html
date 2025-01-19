@@ -3,50 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nombre del Estado</title>
+    <title>Chiapas</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #B6DDF5; /* Fondo color azul claro */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center; /* Centrar los títulos */
+            color: #B6DDF5; /* Color de los títulos */
+        }
+
+        h2 {
+            text-align: center; /* Centrar los títulos */
+            color: #01588C; /* Color de los títulos */
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #007acc;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: #005f99;
+        }
+
+        footer ul li a {
+            text-decoration: none;
+            color: #007acc;
+        }
+
+        .boton-navegacion {
+            display: inline-block;
+            margin: 10px auto;
+            padding: 10px 15px;
+            background-color: #007acc;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .boton-navegacion:hover {
+            background-color: #005f99;
+        }
+
+        section {
+            margin: 20px;
+            padding: 15px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
 </head>
 <body>
-    <h2>Chiapas</h2>
-    <p>Chiapas es un estado ubicado en la región sureste de México, limitando al sur con Guatemala. Es conocido por su impresionante biodiversidad, su rica herencia cultural, y sus paisajes naturales que incluyen selvas, montañas, ríos, y lagos. La capital del estado es Tuxtla Gutiérrez, pero otras ciudades importantes incluyen San Cristóbal de las Casas y Palenque. Chiapas es hogar de varios grupos indígenas, como los tzotziles, tzeltales, y lacandones, quienes mantienen vivas sus lenguas y costumbres. Su economía se basa en la agricultura, el turismo y la producción de café y ámbar.</p>
-    <img src="imagenes/chiapas.jpg" alt="Imagen de Chiapas" class="img-responsive con-borde">
-    <h3>Tradiciones en la Chiapas</h3>
-    <p>Una de las tradiciones más emblemáticas de Chiapas es la Fiesta Grande de Chiapa de Corzo, celebrada en enero, en honor a San Sebastián. Durante esta festividad, se realizan danzas tradicionales como la de los Parachicos, que fue declarada Patrimonio Cultural Inmaterial de la Humanidad por la UNESCO. Esta danza incluye hombres enmascarados y vestidos con sarapes que recorren las calles al son de la música. Otra tradición importante es la Semana Santa en San Juan Chamula, donde se mezclan rituales católicos e indígenas en una celebración única que refleja el sincretismo religioso de la región.</p>
-    <h3>Algunos de sus platillos tipicos de la Chiapas son:</h3>
-    <p>La gastronomía chiapaneca es variada y rica en sabores. Uno de los platillos más representativos es el tamal de chipilín, hecho con masa de maíz mezclada con la hoja de chipilín y relleno de carne. Otro platillo tradicional es el cochito, que es cerdo adobado y horneado con una mezcla de especias y chile. La sopa de pan, una sopa espesa hecha con pan, caldo de pollo, plátano macho y especias, también es un clásico de la cocina chiapaneca.</p>
-    <table>
-        <tr>
-            <th>Dato de interés</th>
-            <th>Dato de interés</th>
-            <th>Dato de interés</th>
-        </tr>
-        <tr>
-            <td>Chiapas es hogar de la Selva Lacandona, una de las selvas tropicales más importantes de México, que alberga una gran diversidad de flora y fauna, incluyendo especies en peligro de extinción como el jaguar y la guacamaya roja.</td>
-            <td>El estado es famoso por las ruinas mayas de Palenque, una de las zonas arqueológicas más importantes de México, que cuenta con templos y estructuras que datan de los siglos VII y VIII, incluyendo el Templo de las Inscripciones y el Palacio.</td>
-            <td>Chiapas es el principal productor de café en México, conocido por su alta calidad y sabor distintivo, que proviene de las fincas ubicadas en las montañas de la región. El café chiapaneco es exportado a todo el mundo y es uno de los productos más emblemáticos del estado.</td>
-        </tr>
-    </table>
-    <marquee>VIVE LA EXPERIENCIA EN CHIAPAS</marquee>
-    <audio controls>
-        <source src="media/audio.mpeg" type="audio/mpeg">
-        Tu navegador no soporta el elemento de audio.
-    </audio>
-    <video controls>
-        <source src="media/chiapas.mp4" type="video/mp4">
-        Tu navegador no soporta el elemento de video.
-    </video>
-    <form action="mailto:vazquez.victor@cetis054.edu.mx" method="post" enctype="text/plain">
-        <label for="evaluacion">Evalúa nuestra página:</label>
-        <textarea id="evaluacion" name="evaluacion" rows="4" cols="50"></textarea>
-        <input type="submit" value="Enviar">
-    </form>
-            <h3>Enlaces de Interés</h3>
+    <!-- Botón para ir al final -->
+    <a href="#final" class="boton-navegacion">Ir al final</a>
+
+    <header>
+        <h1>Chiapas</h1>
+        <nav>
             <ul>
-                <li><a href="index.html">index</a></li>
-                <li><a href="indice.html">Indice</a></li>
-                <li><a href="https://www.chiapas.gob.mx/">Enlace Externo</a></li>
+                <li><a href="#tradiciones">Tradiciones</a></li>
+                <li><a href="#platillos">Platillos Típicos</a></li>
+                <li><a href="#datos">Datos de Interés</a></li>
+                <li><a href="#multimedia">Multimedia</a></li>
+                <li><a href="#formulario">Formulario</a></li>
             </ul>
-        </section>
-    </article>
+        </nav>
+    </header>
+
+    <section>
+        <p>Chiapas es un estado ubicado en la región sureste de México. Su capital es Tuxtla Gutiérrez, conocida por su riqueza cultural y biodiversidad. El estado tiene una superficie de <strong>73,125 km²</strong> y una población de aproximadamente <strong>5 millones</strong> de habitantes, según el censo de 2020. Chiapas es reconocido por su diversidad natural, especialmente por sus selvas y montañas, además de su riqueza en culturas indígenas.</p>
+        <img src="imagenes/chiapas.jpg" alt="Imagen de Chiapas" class="img-responsive con-borde">
+    </section>
+
+    <section id="tradiciones">
+        <h2>Tradiciones en Chiapas</h2>
+        <p><em>La Feria Nacional de San Marcos</em> es una de las celebraciones más importantes de Chiapas, llevada a cabo en abril. Además, la <strong>Fiesta Grande de San Cristóbal de las Casas</strong> en julio, es una tradición emblemática que combina lo religioso con lo cultural, destacando danzas y procesiones.</p>
+    </section>
+
+    <section id="platillos">
+        <h2>Platillos Típicos</h2>
+        <p>Entre los platillos típicos de Chiapas destacan:</p>
+        <ul>
+            <li><strong>Mole de olla:</strong> Caldo a base de carne de res, acompañada de vegetales frescos.</li>
+            <li><strong>Coctel de camarón con aguacate:</strong> Mariscos preparados con limón, tomate y especias locales.</li>
+        </ul>
+    </section>
+
+    <section id="datos">
+        <h2>Datos de Interés</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Dato 1</th>
+                    <th>Dato 2</th>
+                    <th>Dato 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Chiapas es el estado con mayor biodiversidad en México, albergando más de 14,000 especies de flora y fauna.</td>
+                    <td>Tuxtla Gutiérrez es conocida como la "ciudad de las cañadas" debido a sus vistas espectaculares y barrancas.</td>
+                    <td>El nombre "Chiapas" proviene del náhuatl "chiapan" que significa "lugar de charcos o ciénegas".</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="multimedia">
+        <h2>Multimedia</h2>
+        <marquee>VIVE LA EXPERIENCIA EN CHIAPAS</marquee>
+        <audio controls>
+            <source src="media/audio.mpeg" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+        <video controls>
+            <source src="media/chiapas.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </section>
+
+    <section id="formulario">
+        <h2>Formulario de Evaluación</h2>
+        <form action="mailto:vazquez.victor@cetis054.edu.mx" method="post" enctype="text/plain">
+            <label for="evaluacion">Evalúa nuestra página:</label><br>
+            <textarea id="evaluacion" name="evaluacion" rows="4" cols="50"></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer id="final">
+        <h2>Enlaces de Interés</h2>
+        <ul>
+            <li><a href="index.html">Página principal</a></li>
+            <li><a href="indice.html">Índice</a></li>
+            <li><a href="https://chiapas.gob.mx" target="_blank">Sitio oficial de Chiapas</a></li>
+        </ul>
+        <!-- Botón para ir al inicio -->
+        <a href="#top" class="boton-navegacion">Ir al inicio</a>
+    </footer>
 </body>
 </html>

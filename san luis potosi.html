@@ -1,52 +1,147 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nombre del Estado</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>San Luis Potosí</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+body {
+background-color: #B6DDF5; /* Fondo color azul claro */
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+h1 {
+text-align: center; /* Centrar los títulos */
+color: #B6DDF5; /* Color de los títulos */
+}
+h2 {
+text-align: center; /* Centrar los títulos */
+color: #01588C; /* Color de los títulos */
+}
+nav ul {
+list-style: none;
+padding: 0;
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+nav ul li a {
+text-decoration: none;
+color: #fff;
+background-color: #007acc;
+padding: 10px 15px;
+border-radius: 5px;
+}
+nav ul li a:hover {
+background-color: #005f99;
+}
+footer ul li a {
+text-decoration: none;
+color: #007acc;
+}
+.boton-navegacion {
+display: inline-block;
+margin: 10px auto;
+padding: 10px 15px;
+background-color: #007acc;
+color: #fff;
+text-decoration: none;
+border-radius: 5px;
+text-align: center;
+}
+.boton-navegacion:hover {
+background-color: #005f99;
+}
+section {
+margin: 20px;
+padding: 15px;
+background: #fff;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+</style>
 </head>
 <body>
-    <h2>San Luis Potosi</h2>
-    <p>San Luis Potosí es un estado situado en el centro-norte de México, conocido por su rica diversidad cultural y geográfica. Su capital, San Luis Potosí, es una ciudad con un importante legado histórico y cultural, que combina arquitectura colonial con desarrollos modernos. El estado presenta una geografía variada que incluye desiertos, montañas y valles, lo que contribuye a su biodiversidad y a la diversidad de sus actividades económicas. San Luis Potosí es un centro clave para la industria y el comercio en México y es famoso por su patrimonio histórico, natural y cultural.</p>
-    <img src="imagenes/san luis potosi.jpg" alt="Imagen de San Luis Potosi" class="img-responsive con-borde">
-    <h3>Tradiciones en la San Luis Potosi</h3>
-    <p>Una de las tradiciones más destacadas en San Luis Potosí es la celebración de la Fiesta de la Candelaria, que se lleva a cabo cada 2 de febrero. Durante esta festividad, los habitantes se reúnen para rendir homenaje a la Virgen de la Candelaria con procesiones, misas, y celebraciones familiares. Otra tradición importante es el Festival del Huapango, que celebra la música tradicional del huapango, un género musical típico de la región huasteca. Además, la Feria Nacional Potosina es un evento anual que ofrece una variedad de actividades, incluyendo conciertos, espectáculos y exhibiciones culturales.</p>
-    <h3>Algunos de sus platillos tipicos de la San Luis Potosi son:</h3>
-    <p>La gastronomía de San Luis Potosí es conocida por sus sabores auténticos y sus platillos tradicionales. Uno de los platillos más representativos es el zacahuil, un tamal gigante hecho con masa de maíz y relleno de carne de cerdo o pollo, cocido en hojas de plátano. Otro platillo destacado es el bocadillo potosino, una especie de empanada rellena de carne de cerdo y chiles. Además, el panchita es un platillo tradicional que se prepara con carne de cerdo en una salsa roja picante.</p>
-    <table>
-        <tr>
-            <th>Dato de interés</th>
-            <th>Dato de interés</th>
-            <th>Dato de interés</th>
-        </tr>
-        <tr>
-            <td>San Luis Potosí es famoso por su Huasteca Potosina, una región natural que incluye cascadas, ríos y formaciones rocosas. Es un destino popular para el ecoturismo, ofreciendo actividades como rappel, senderismo y navegación en ríos.</td>
-            <td>El estado alberga el Centro Histórico de San Luis Potosí, que incluye edificios coloniales, iglesias y plazas que reflejan la rica historia y arquitectura del periodo colonial. La Catedral Metropolitana de San Luis Potosí es uno de los monumentos más emblemáticos de la ciudad.</td>
-            <td>San Luis Potosí es conocido por su producción de música huasteca, un género que combina violín, guitarra y jarana con ritmos y melodías tradicionales. La música huasteca es una parte integral de la cultura local y se celebra en diversos eventos y festivales en el estado.</td>
-        </tr>
-    </table>
-    <marquee>VIVE LA EXPERIENCIA EN San Luis Potosi</marquee>
-    <audio controls>
-        <source src="media/audio.mpeg" type="audio/mpeg">
-        Tu navegador no soporta el elemento de audio.
-    </audio>
-    <video controls>
-        <source src="media/san luis potosi.mp4" type="video/mp4">
-        Tu navegador no soporta el elemento de video.
-    </video>
-    <form action="mailto:vazquez.victor@cetis054.edu.mx" method="post" enctype="text/plain">
-        <label for="evaluacion">Evalúa nuestra página:</label>
-        <textarea id="evaluacion" name="evaluacion" rows="4" cols="50"></textarea>
-        <input type="submit" value="Enviar">
-    </form>
-            <h3>Enlaces de Interés</h3>
-            <ul>
-                <li><a href="index.html">index</a></li>
-                <li><a href="indice.html">Indice</a></li>
-                <li><a href="https://sitio.sanluis.gob.mx/SanLuisPotoSi/">Enlace Externo</a></li>
-            </ul>
-        </section>
-    </article>
+<!-- Botón para ir al final -->
+<a href="#final" class="boton-navegacion">Ir al final</a>
+<header>
+<h1>San Luis Potosí</h1>
+<nav>
+<ul>
+<li><a href="#tradiciones">Tradiciones</a></li>
+<li><a href="#platillos">Platillos Típicos</a></li>
+<li><a href="#datos">Datos de Interés</a></li>
+<li><a href="#multimedia">Multimedia</a></li>
+<li><a href="#formulario">Formulario</a></li>
+</ul>
+</nav>
+</header>
+<section>
+<p>San Luis Potosí es un estado ubicado en la región centro-norte de México. Su capital es la ciudad de San Luis Potosí, conocida por su rica historia y su desarrollo industrial. El estado tiene una superficie de <strong>61,037 km²</strong> y una población de aproximadamente <strong>2.8 millones</strong> de habitantes, según el censo de 2020. San Luis Potosí es uno de los estados más grandes del país, destacando en sectores como la minería, la industria manufacturera y el turismo.</p>
+<img src="imagenes/san luis potosi.jpg" alt="Imagen de San Luis Potosí" class="img-responsive con-borde">
+</section>
+<section id="tradiciones">
+<h2>Tradiciones en San Luis Potosí</h2>
+<p><em>La Feria Nacional Potosina</em> es la tradición más representativa de San Luis Potosí, celebrada anualmente en septiembre. Este evento incluye exposiciones ganaderas, eventos culturales, deportivos y una gran variedad de espectáculos, atrayendo a visitantes de todo México. Además, la <strong>Semana Santa en San Luis Potosí</strong> es muy famosa, destacando las procesiones religiosas y las festividades que combinan lo cultural y lo religioso.</p>
+</section>
+<section id="platillos">
+<h2>Platillos Típicos</h2>
+<p>Entre los platillos típicos de San Luis Potosí destacan:</p>
+<ul>
+<li><strong>Pancita Potosina:</strong> Caldo elaborado con tripas y diversos vegetales.</li>
+<li><strong>Huachile:</strong> Un ceviche potosino preparado con pescado fresco, chile y limón.</li>
+</ul>
+</section>
+<section id="datos">
+<h2>Datos de Interés</h2>
+<table>
+<thead>
+<tr>
+<th>Dato 1</th>
+<th>Dato 2</th>
+<th>Dato 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>San Luis Potosí es un importante polo industrial en México, albergando empresas en los sectores automotriz, manufacturero y tecnológico.</td>
+<td>El estado es conocido por su producción de mezcal, contando con numerosas destilerías que producen una amplia variedad de mezcal artesanal.</td>
+<td>El nombre "San Luis Potosí" proviene de San Luis Rey de Francia y el mineral de plata llamado "potosí" que se encontraba en la región durante la época colonial.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="multimedia">
+<h2>Multimedia</h2>
+<marquee>VIVE LA EXPERIENCIA EN SAN LUIS POTOSÍ</marquee>
+<audio controls>
+<source src="media/audio.mpeg" type="audio/mpeg">
+Tu navegador no soporta el elemento de audio.
+</audio>
+<video controls>
+<source src="media/san_luis_potosi.mp4" type="video/mp4">
+Tu navegador no soporta el elemento de video.
+</video>
+</section>
+<section id="formulario">
+<h2>Formulario de Evaluación</h2>
+<form action="mailto:vazquez.victor@cetis054.edu.mx" method="post" enctype="text/plain">
+<label for="evaluacion">Evalúa nuestra página:</label><br>
+<textarea id="evaluacion" name="evaluacion" rows="4" cols="50"></textarea><br>
+<input type="submit" value="Enviar">
+</form>
+</section>
+<footer id="final">
+<h2>Enlaces de Interés</h2>
+<ul>
+<li><a href="index.html">Página principal</a></li>
+<li><a href="indice.html">Índice</a></li>
+<li><a href="https://portal.slp.gob.mx" target="_blank">Sitio oficial de San Luis Potosí</a></li>
+</ul>
+<!-- Botón para ir al inicio -->
+<a href="#top" class="boton-navegacion">Ir al inicio</a>
+</footer>
 </body>
 </html>

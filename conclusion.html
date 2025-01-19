@@ -5,34 +5,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conclusión</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #0056b3;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            text-align: justify;
+            margin: 20px auto;
+            width: 80%;
+        }
+
+        form {
+            background-color: #e6f7ff;
+            border: 2px solid #0056b3;
+            border-radius: 10px;
+            padding: 20px;
+            width: 60%;
+            margin: 20px auto;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+            color: #333;
+        }
+
+        input, textarea {
+            width: calc(100% - 10px);
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        input[type="submit"], input[type="reset"] {
+            width: 48%;
+            margin: 10px 1%;
+            background-color: #0056b3;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        input[type="submit"]:hover, input[type="reset"]:hover {
+            background-color: #003f7f;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #0056b3;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h2>Conclusión</h2>
-    <p>En este recursamiento hemos reafirmado los conocimientos adquiridos en nuestra escuela y nos hemos dado cuenta de lo importante que es la programación, al realizar esta paguina web tuvimos nuestros problemas pero nada que entre 2 no se pudiera solucionar.</p>
+    <h1>Conclusión</h1>
+    <p>En este recursamiento he reafirmado los conocimientos adquiridos en mi escuela y me he dado cuenta de lo importante que es la programación. Al realizar esta página web, tuve varios retos para poder comlementar lo realizado en el recursamiento pasado, pero nada que la perseverancia pudiera solucionar.</p>
 
-    <h1>Enviar Correo Electrónico</h1>
+    <h2>Evaluar Página</h2>
     <form action="mailto:vazquez.victor@cetis054.edu.mx,torres.ana_200336@cetis054.edu.mx" method="post" enctype="text/plain">
-        <label for="nombre">Nombre:</label><br>
-        <input type="text" id="nombre" name="nombre" required><br><br>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
 
-        <label for="email">Correo Electrónico:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
 
-        <label for="asunto">Asunto:</label><br>
-        <input type="text" id="asunto" name="asunto" required><br><br>
+        <label for="asunto">Asunto:</label>
+        <input type="text" id="asunto" name="asunto" required>
 
-        <label for="mensaje">Mensaje:</label><br>
-        <textarea id="mensaje" name="mensaje" rows="6" cols="50" required></textarea><br><br>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
 
         <input type="submit" value="Enviar">
         <input type="reset" value="Restablecer">
     </form>
-            <h3>Enlaces de Interés</h3>
-            <ul>
-                <li><a href="index.html">index</a></li>
-                <li><a href="indice.html">Indice</a></li>
-            </ul>
-        </section>
-    </article>
+
+    <h3>Enlaces de Interés</h3>
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="indice.html">Índice</a></li>
+    </ul>
 </body>
 </html>
+
